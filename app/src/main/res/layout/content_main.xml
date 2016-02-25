@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="@string/title_text"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        />
+<Button android:id="@+id/spotify_streamer"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:text="@string/spotify_streamer"
+    android:background="@drawable/button_orange"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:textColor="#000000"
+    android:textStyle="bold"
+    android:onClick="spotifyStreamerPressed"
+    />
+
+
+<Button android:id="@+id/scores_app"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:text="@string/scores_app"
+    android:background="@drawable/button_orange"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:textColor="#000000"
+    android:textStyle="bold"
+    android:onClick="scoresAppPressed"
+    />
+
+<Button android:id="@+id/library_app"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:text="@string/library_app"
+    android:background="@drawable/button_orange"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:textColor="#000000"
+    android:textStyle="bold"
+    android:onClick="libraryAppPressed"
+    />
+
+<Button android:id="@+id/build_it_bigger"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:text="@string/build_it_bigger"
+    android:background="@drawable/button_orange"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:textColor="#000000"
+    android:textStyle="bold"
+    android:onClick="buildItBiggerPressed"
+    />
+
+<Button android:id="@+id/xyz_reader"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:text="@string/xyz_reader"
+    android:background="@drawable/button_orange"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:textColor="#000000"
+    android:textStyle="bold"
+    android:onClick="xyzReaderPressed"
+    />
+
+<Button android:id="@+id/my_own_app"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:text="@string/my_own_app"
+    android:background="@drawable/button_red"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:textColor="#ffffff"
+    android:textStyle="bold"
+    android:onClick="myOwnAppPressed"
+    />
+</LinearLayout>
+
